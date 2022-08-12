@@ -1,0 +1,22 @@
+{
+  "name": "cloudsup-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omega7711/CloudsUp-Bot.git"
+  },
+  "author": "omega7711",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omega7711/CloudsUp-Bot/issues"
+  },
+  "homepage": "https://github.com/omega7711/CloudsUp-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.2.0"
+  }
+}
