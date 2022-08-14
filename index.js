@@ -13,7 +13,9 @@ client.on('ready', () => {
 
 client.on('interactionCreate', interaction => {
     if(interaction.commandType === 1) {
-        
+        if(interaction.commandName === 'link') {
+            console.log('linking...')
+        }
     }
 });
 
