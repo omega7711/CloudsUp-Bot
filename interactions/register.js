@@ -13,10 +13,10 @@ const RegisterCommands = (config, token) => {
         .map(command => command.toJSON());
     
     const rest = new REST({ version: '10' }).setToken(token);
-    rest.delete(Routes.applicationCommand(config.clientId, 'commandId'))
+/*    rest.delete(Routes.applicationCommand(config.clientId, 'commandId'))
 	.then(() => console.log('Successfully deleted application command'))
 	.catch(console.error);
-    
+*/
     rest.put(Routes.applicationGuildCommands(config.clientId, config.guildId), { body: commands })
         .then(() => console.log('Successfully registered application commands.'))
         .catch(console.error);
